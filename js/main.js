@@ -28,6 +28,6 @@ form.addEventListener('submit', e => {
   }
 
   FetchingData()
-  window.location.href = "https://www.instagram.com/tv/CYmD7K_qtSq/?utm_source=ig_web_copy_link";
+  window.location.href = "https://www.instagram.com/p/CZHOENLAAGc/?utm_source=ig_web_copy_link";
   
 })
